@@ -1,0 +1,132 @@
+*{
+   margin:0;
+   padding:0;
+   box-sizing:border-box;
+   font-family:'Poppins',sans-serif;
+}
+body{
+   background:url("assets/sneha.jpg") center center/cover no-repeat fixed;
+   min-height:100vh;
+}
+.overlay{
+   width:100%;
+   min-height:100vh;
+   background:rgba(0,0,0,.55);
+   padding:40px 15px;
+}
+header{
+   text-align:center;
+   color:#fff;
+   margin-bottom:40px;
+}
+header h1{
+   font-size:48px;
+   margin-bottom:10px;
+   text-shadow:0 3px 10px #000;
+}
+header p{
+   font-size:20px;
+}
+.wishBox{
+   max-width:600px;
+   margin:auto;
+   background:rgba(255,255,255,.15);
+   backdrop-filter:blur(12px);
+   border-radius:20px;
+   padding:25px;
+   box-shadow:0 15px 40px rgba(0,0,0,.35);
+}
+.wishBox h2{
+   color:#fff;
+   text-align:center;
+   margin-bottom:20px;
+}
+input,textarea{
+   width:100%;
+   border:none;
+   outline:none;
+   border-radius:12px;
+   padding:15px;
+   margin-bottom:15px;
+   font-size:16px;
+}
+textarea{
+   height:130px;
+   resize:none;
+}
+button{
+   width:100%;
+   padding:15px;
+   border:none;
+   border-radius:12px;
+   cursor:pointer;
+   background:#ff3ea5;
+   color:#fff;
+   font-size:18px;
+   font-weight:bold;
+   transition:.3s;
+}
+button:hover{
+   transform:scale(1.02);
+   background:#ff1288;
+}
+.counter{
+   margin:35px auto;
+   text-align:center;
+   color:#fff;
+}
+.counter h1{
+   font-size:55px;
+}
+#allWish{
+   max-width:900px;
+   margin:auto;
+}
+.card{
+   background:rgba(255,255,255,.18);
+   backdrop-filter:blur(15px);
+   border-radius:18px;
+   padding:20px;
+   margin-bottom:20px;
+   color:#fff;
+   box-shadow:0 10px 25px rgba(0,0,0,.3);
+}
+.card h3{
+   margin-bottom:10px;
+   color:#ffd6ff;
+}
+.card p{
+   line-height:1.7;
+}
+.likeBtn{
+   margin-top:15px;
+   border:none;
+   background:#ff2d55;
+   color:#fff;
+   padding:10px 20px;
+   border-radius:10px;
+   cursor:pointer;
+}
+.likeBtn:hover{
+   background:#ff0044;
+}
+footer{
+   text-align:center;
+   color:#fff;
+   margin-top:50px;
+   font-size:18px;
+}
+@media(max-width:768px){
+header h1{
+font-size:32px;
+}
+header p{
+font-size:17px;
+}
+.wishBox{
+padding:20px;
+}
+.counter h1{
+font-size:40px;
+}
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday Sneha ❤️</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="overlay">
+<header>
+<h1>🎂 Happy Birthday Sneha Panday 🎂</h1>
+<p>May your smile always stay forever ❤️</p>
+</header>
+<section class="wishBox">
+<h2>Write Your Birthday Wish</h2>
+<input
+type="text"
+id="name"
+placeholder="Your Name">
+<textarea
+id="wish"
+placeholder="Write Birthday Wish"></textarea>
+<button onclick="addWish()">
+Send Wish ❤️
+</button>
+</section>
+<section class="counter">
+<h2>Total Wishes</h2>
+<h1 id="total">0</h1>
+</section>
+<section id="allWish"></section>
+<footer>
+Made with ❤️ For Sneha
+</footer>
+</div>
+<script type="module" src="firebase.js"></script>
+<script type="module" src="script.js"></script>
+</body>
+</html>
